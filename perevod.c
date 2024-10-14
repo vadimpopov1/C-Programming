@@ -18,7 +18,7 @@ int fone(int a) {
     return pos;
 } 
 
-//int shift(unsigned int a, unsigned int k) {
+//int shift(unsigned int a, unsigned int k) { пока не сделал 
 //    unsigned int size = sizeof(int);
 //    k %= size;
 //    unsigned int r_shift = a >> k;
