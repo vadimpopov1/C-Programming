@@ -101,7 +101,7 @@ int main() {
         printf("Count of elements than less max: %d \n", cnt);
     }
 
-    printf("Итоговый массив B: \n");
+    printf("Massive B: \n");
 
     for (int i = 0; i < n; i++) {
         printf("%d ", B[i]);
