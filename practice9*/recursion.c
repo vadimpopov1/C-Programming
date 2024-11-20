@@ -21,7 +21,6 @@ int main() {
     printf("Enter precision like 0.0001: ");
     scanf("%lf", &pr);
     if (pr > 0 && pr <= 0.1) {
-        pr *= 0.1;
         double pia = solvepi(pr);
         int place = 0;
         double tpr = pr;
@@ -29,8 +28,9 @@ int main() {
             tpr *= 10;
             place++;
         }
-        printf("Your π ≈ %.*f\n", place-1, pia*(-1));
+        printf("Your π ≈ %.*f\n", place, pia*(-1));
     } else {
         printf("Invalid precision. Check input");
     }
 }
+
