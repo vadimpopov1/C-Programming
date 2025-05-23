@@ -1,0 +1,6 @@
+Hello world!
+This is a sample text file.
+It contains multiple lines of text.
+Each line has different words.
+You can use this file for testing purposes.
+Thank you for using this examples!
